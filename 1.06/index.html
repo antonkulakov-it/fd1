@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Атрибуты HTML-тегов</title>
+    <meta charset="utf-8">
+</head>
+
+<body>
+    <style>
+        body {
+            font-family: Georgia, serif;
+        }
+        
+        blockquote {
+            margin: 1.5em 0;
+            padding: 0.5em 15px;
+            line-height: 1.5;
+            background: #f9f9f9;
+            border-left: 2px solid #ccc;
+        }
+        /* Пример оформления фотографии */
+        
+        .photocard {
+            display: block;
+            width: 300px;
+            margin: 20px auto;
+            border-radius: 10px;
+            box-shadow: 0 0 5px #666;
+        }
+    </style>
+
+    <h1>Атрибуты HTML-тегов</h1>
+    <p>Некоторые теги есть смысл использовать только с атрибутами. Наиболее яркий пример — тег <code>&lt;img&gt;</code>, обозначающий изображение. Для него обязательно нужно указывать атрибут <code>src</code>, который задаёт адрес картинки (иначе браузер
+        не сможет загрузить её).</p>
+
+    <p>В общем случае тег записывается следующим образом:</p>
+
+    <pre>&lt;имя-тега атрибут1="значение1" атрибут2="значение2" ...&gt;</pre>
+
+    <p>Атрибутов может быть несколько, вот примеры:</p>
+
+    <pre>&lt;p class="important"&gt;...&lt;/p&gt;
+&lt;a class="external" href="https://yandex.ru"&gt;...&lt;/a&gt;
+&lt;img class="avatar" src="keks.png"&gt;</pre>
+
+    <p>В этом задании вы потренируетесь использовать атрибуты тегов.</p>
+
+    <div>Не забудьте пробелы между названием тега и атрибутом и между атрибутами</div>
+    <hr>
+
+    <img>
+    <hr>
+    <blockquote>
+        <ol>
+            <li>К тегу img добавьте атрибут src со значением http://www.trental.ru/wp-content/uploads/2011/08/kartinka5-300x225.jpg</li>
+            <li>Затем ещё один атрибут class со значением photocard.</li>
+        </ol>
+
+
+</body>
+
+</html>
