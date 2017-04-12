@@ -24,6 +24,6 @@ dd {
     border: 1px solid green;
     border-radius: 5px;
 }
-#abilities {
+#abilities { 
     background: linear-gradient(to left,  #FFDDD6 20%, #FFF9ED 50%, #DBDBDB 80%);
 }
