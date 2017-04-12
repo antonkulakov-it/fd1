@@ -1,0 +1,29 @@
+body {
+    font-family: "arial";
+}
+h1,h2 {
+    font-family: Gabriela;
+}
+dt {
+    color: gray;
+}
+
+dd {
+    color: green;
+}
+#edu {
+    background-color: rgb(200,200,255);
+}
+#exp {
+    background-color: #fdd;
+}
+#additional {
+    font-style: italic;
+}
+#info {
+    border: 1px solid green;
+    border-radius: 5px;
+}
+#abilities {
+    background: linear-gradient(to left,  #FFDDD6 20%, #FFF9ED 50%, #DBDBDB 80%);
+}
