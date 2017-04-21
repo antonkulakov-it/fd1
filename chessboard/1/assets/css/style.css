@@ -1,0 +1,113 @@
+div {
+    border:1px solid red;
+}
+.chessboard {
+    width: 40vw;
+    height: 40vw;
+    position: relative;
+}
+.chessboard>div {
+    padding-top: 100%;
+    width: calc(100% / 8);
+    position: absolute;
+}
+
+.chessboard>div>div {
+    padding-top: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+.a {
+    left: 0;
+}
+
+.b {
+    left: calc(100% / 8);
+}
+
+.c {
+    left: calc(2 * 100% / 8);
+}
+
+.d {
+    left: calc(3 * 100% / 8);
+}
+
+.e {
+    left: calc(4 * 100% / 8);
+}
+.chessboard>div.f {
+    left: calc(5 * 100% / 8);
+}
+.g {
+    left: calc(6 * 100% / 8);
+}
+.chessboard>div.h {
+    left: calc(7 *100% / 8);
+}
+
+._1 {
+    top: 0;
+}
+
+._2 {
+    top: calc(100% / 8);
+}
+
+._3 {
+    top: calc(2 * 100% / 8);
+}
+
+._4 {
+    top: calc(3 * 100% / 8);
+}
+
+._5 {
+    top: calc(4 * 100% / 8);
+}
+._6 {
+    top: calc(5 * 100% / 8);
+}
+._7 {
+    top: calc(6 * 100% / 8);
+}
+._8 {
+    top: calc(7 *100% / 8);
+}
+
+.black {
+    background-color: #555;
+}
+
+.figure {
+    background-image: url(../img/chess.png);
+    background-repeat: no-repeat;
+    background-size: 680%;
+}
+
+.white {
+    background-position-y: 100%;
+}
+
+
+.p {
+    background-position-x: 103%;
+}
+
+.l {
+    background-position-x: 41%;
+}
+
+.chessboard>div>div.h {
+    background-position-x: 82%;
+}
+.o {
+    background-position-x: 61%;
+}
+.chessboard>div>div.f {
+    background-position-x: -1%;
+}
+.k {
+    background-position-x: 20%;
+}
