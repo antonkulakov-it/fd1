@@ -1,0 +1,17 @@
+body:first-child {
+    /*не работает!*/
+    border:1px sold red;
+}
+div:first-child {
+    /* не работает, так как div не является первым дитем */
+    border: 1px solid green;
+}
+
+h2:first-child {
+    /* а вот так сработает */
+    border: 1px solid blue;
+}
+
+p:first-of-type {
+    color: red;
+}
